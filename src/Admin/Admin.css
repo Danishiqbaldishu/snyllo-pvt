@@ -1,0 +1,37 @@
+/* styles.css */
+.admin-panel {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    padding: 10px;
+  }
+  
+  .main-content {
+    flex: 1;
+  }
+  
+  .header {
+    background-color: #444;
+    height: 50px;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  .content button{
+    margin-top: 10px;
+    width: 10rem;
+  }
+  
+  

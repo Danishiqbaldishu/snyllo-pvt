@@ -1,0 +1,58 @@
+.data-box{
+    border: 2px solid black;
+}
+/* DayDashboard.css */
+
+/* Main container */
+.day-dashboard {
+    margin: 20px;
+  }
+  
+  /* Filter section */
+  .filter-section {
+    margin-bottom: 20px;
+  }
+  
+  /* Data box */
+  .data-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .data-box h2 {
+    margin-top: 0;
+  }
+  
+  .data-box p {
+    margin: 5px 0;
+  }
+  
+  .data-box h5 {
+    margin-top: 5px;
+    color: #666;
+  }
+  .btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .edit-btn{
+    width: 10%;
+  }
+  .delete-btn{
+    width: 10%;
+    background-color: rgba(207, 5, 5, 0.868);
+  }
+  .addData{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .addNewData{
+    width: 10%;
+  }

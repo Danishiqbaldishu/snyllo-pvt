@@ -1,0 +1,86 @@
+.calendar-container {
+    margin: 20px auto;
+    max-width: 600px;
+  }
+  
+  .calendar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .calendar-months,
+  .calendar-days,
+  .calendar-slots {
+    flex: 1;
+    margin-right: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .booked-slots {
+    margin-top: 20px;
+  }
+  
+  .booked-slots ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .booked-slots li {
+    margin-bottom: 5px;
+  }
+  .calendar-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+  }
+  
+  .calendar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .calendar select {
+    width: 150px;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .calendar button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+   
+  }
+  
+  .filter-section {
+    margin-bottom: 20px;
+  }
+  
+  .booked-slots {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .booked-slots ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .booked-slots li {
+    margin-bottom: 10px;
+  }
+  button{
+    margin-bottom: 10px;
+  }
+  label{
+    margin-bottom: 3px;
+  }
+  
