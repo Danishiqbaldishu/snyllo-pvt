@@ -32,16 +32,14 @@ const SlotBooking = () => {
   const [filteredTimeSlot, setFilteredTimeSlot] = useState('');
    
   useEffect(() => {
-  if (editSlots) {
-    setEdit(true)
-    console.log(editSlots)
-    setSelectedMonth(editSlots.user.month)
-    setSelectedDate(editSlots.user.date)
-    setSelectedTimeSlot(editSlots.user.timeSlot)
-
-  }
-
-  }, [])
+    if (editSlots) {
+      setEdit(true);
+      setSelectedMonth(editSlots.user.month);
+      setSelectedDate(editSlots.user.date);
+      setSelectedTimeSlot(editSlots.user.timeSlot);
+    }
+  }, [editSlots]); // Include editSlots in the dependency array
+  
 
 
   // Function to handle slot booking
